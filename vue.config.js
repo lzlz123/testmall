@@ -12,5 +12,8 @@ module.exports = {
                 'views': '@/views'
             }
         }
-    }
+    },
+    devServer: {
+        port: 8089
+    },
 }

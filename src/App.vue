@@ -1,7 +1,9 @@
 <template>
     <div id="app">
         <!--显示路由内容-->
-        <router-view></router-view>
+        <keep-alive exclude="Detiall">
+            <router-view></router-view>
+        </keep-alive>
         <MainTabBar></MainTabBar>
     </div>
 </template>
